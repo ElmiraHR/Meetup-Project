@@ -38,6 +38,9 @@
     cursor: pointer;
     white-space: nowrap;
 }
+.button:hover{
+    background-color: #16a5b8;
+}
   a,
   button,
   svg,
