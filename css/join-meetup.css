@@ -1,0 +1,43 @@
+.join-meetup-box {
+    background-color: var(--color-light-blue-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+}
+
+.join-meetup-leftside {
+    padding-left: 56px;
+    padding-top: 36px;
+    width: 60%;
+}
+
+.join-meetup-leftside h3 {
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+}
+
+.join-meetup-leftside p {
+    padding-right: 74px;
+    padding-bottom: 16px;
+}
+
+.join-meetup-leftside button {
+    background-color: #E32359;
+    width: 192px;
+    height: 40px;
+    margin-bottom: 36px;
+}
+
+.join-meetup-leftside button:hover {
+    background-color: #e74674;
+}
+
+.small-title {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-left: 15px;
+    display: none;
+}
+

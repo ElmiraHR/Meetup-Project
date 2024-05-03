@@ -3,6 +3,7 @@
 @import url("./css/events-header.css");
 @import url("./css/events-box.css");
 @import url("./css/upcomming.css");
+@import url("./css/join-meetup.css");
 
 * {
 	margin: 0;
@@ -205,6 +206,11 @@ input * {
 		display: none;
 	}
 
+    .join-meetup-rightside img {
+        width: 90%;
+    
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -337,6 +343,42 @@ input * {
     .online {
         display: none;
     }
+
+    .join-meetup-box {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .small-title {
+        font-size: 20px;
+        text-align: left;
+        display: block;
+    }
+
+    .big-title {
+        display: none;
+    }
+
+    .join-meetup-leftside p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .join-meetup-leftside {
+        padding: 6px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .join-meetup-leftside button {
+        margin-top: 22px;
+    }
+
+    .join-meetup-rightside img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
 
 
 }
