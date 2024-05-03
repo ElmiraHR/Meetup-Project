@@ -17,6 +17,7 @@
 }
 .btn_see_all:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 .btn__events {
     width: 239px;

@@ -3,6 +3,7 @@
 @import url("./css/headerbox.css");
 @import url("./css/events-header.css");
 @import url("./css/events-box.css");
+@import url("./css/upcomming.css");
 * {
     margin: 0;
     box-sizing: border-box;
@@ -89,7 +90,7 @@
         white-space: nowrap;
     }
     .events-box-container{
-        grid-template-columns:  1fr!important;
+       grid-template-columns:  1fr!important;
     }
 }
   @media (max-width: 768px) {
@@ -100,6 +101,7 @@
       grid-template-columns: repeat(2, 1fr)!important;
     }
     .header-box-leftside{
+        max-width: 750px;
         max-width: 400px;
         padding: 15px;
     }
