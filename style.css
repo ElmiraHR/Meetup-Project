@@ -1,5 +1,6 @@
 
 @import url("./css/header.css");
+@import url("./css/headerbox.css");
 * {
     margin: 0;
     box-sizing: border-box;
@@ -36,7 +37,6 @@
     cursor: pointer;
     white-space: nowrap;
 }
-
   a,
   button,
   svg,
@@ -44,9 +44,6 @@
   input * {
  transition-duration: var(--transition-duration);
   }
- 
-
-
 
   @media (max-width: 576px) {
     .container {
@@ -64,10 +61,36 @@
         margin-left: 0px;
         width: 90%;
     }
+    .header-box{
+       text-align: center;
+       margin-top: 15px;
+    }
+    .header-box p{
+        font-size: 14px;
+    }
+    .header-box h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .header-box-leftside{
+        max-width: 400px;
+        padding: 15px;
+    }
+    .header-box-rightside img{
+        width: 80%;
+    }
   }
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .container {
-      max-width: 720px;
+      min-width: 720px;
+    }
+    .header-box-leftside{
+        max-width: 400px;
+        padding: 15px;
+    }
+    .header-box h2{
+        text-align: center;
+        font-size: 34px;
     }
   }
   @media (max-width: 992px) {
@@ -101,6 +124,19 @@
     }
     .rightside-head{
         margin-right: 15px;
+    }
+    .header-box{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+        row-gap: 24px;
+        text-align: center;
+    }
+    .header-box h2{
+        text-align: center;
+    }
+    .header-box-btn{
+        display: none;
     }
   }
   @media (max-width: 1200px) {
@@ -137,12 +173,9 @@
         margin-right: 15px;
     }
   }
-  @media (min-width: 1400px) {
+  @media (max-width: 1400px) {
     .container {
-      max-width: 1320px;
+      min-width: 1320px;
     }
   }
-  .box {
-    background-color: #bbb;
-    height: 200px;
-  }
+ 
