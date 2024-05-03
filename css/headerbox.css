@@ -1,19 +1,19 @@
 .header-box {
-    width: 100%;
-    margin-top: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: 100%;
+	margin-top: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.header-box h2{
-    font-size: 42px;
-    font-weight: bold;
-    text-align: left;
-    padding-bottom: 24px;
+
+.header-box h2 {
+	font-size: 42px;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 24px;
 }
+
 .header-box-btn {
-    margin-top: 24px;
-    margin-bottom: 98px;
+	margin-top: 24px;
+	margin-bottom: 98px;
 }
-
-
