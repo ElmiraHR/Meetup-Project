@@ -256,7 +256,35 @@ input * {
 		grid-template-columns: 1fr;
 	}
 
+    .events-box-item {
+        flex-direction: row;
+    }
+
+    .upcomming-box-item {
+        flex-direction: row;
+    }
+
     .upcomming-box-container {
 		grid-template-columns: 1fr;
 	}
+
+    .grid-img {
+        width: 40%;
+        height: 80%;
+        margin-right: 6px;
+    }
+
+    .events-date{
+        order: 1;
+        color: #7C6F50;
+    }
+
+    .info-items li:nth-child(4){
+        display: none;
+    }
+
+    .online-camera-small {
+        margin-top: 6px;
+        display: block;
+    }
 }

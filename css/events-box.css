@@ -5,6 +5,8 @@
 }
 
 .events-info {
+    display: flex;
+    flex-direction: column;
 	padding-top: 12px;
 	align-items: start;
 }
@@ -34,5 +36,23 @@
 }
 
 .events-box-item {
+    display: flex;
+    flex-direction: column;
 	margin-bottom: 50px;
+}
+
+.info-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.online-camera-small {
+    display: none;
+    width: 94px;
+     margin-left: 5px;
+
+}
+ 
+.events-date {
+    display: flex;
 }
