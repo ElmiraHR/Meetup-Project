@@ -7,6 +7,7 @@
 @import url("./css/categories.css");
 @import url("./css/popular.css");
 @import url("./css/how-meetup.css");
+@import url("./css/friendship.css");
 
 * {
 	margin: 0;
@@ -184,6 +185,15 @@ input * {
     .popular-box {
         flex-wrap: wrap;
     }
+
+    .friendship-box {
+        flex-direction: column;
+    }
+
+    
+    .friendship-box-item{
+        width: 50%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -237,6 +247,11 @@ input * {
     .how-meetup-leftside, .how-meetup-rightside {
         width: 90%;
         font-size: 14px;
+    }
+    
+    .friendship-box-item{
+        width: 70%;
+        max-width: 450px;
     }
 
 }
@@ -409,5 +424,10 @@ input * {
     }
 
 
+    .friendship-box-item{
+        font-size: 14px;
+        width: 100%;
+        max-width: 450px;
+    }
 
 }
