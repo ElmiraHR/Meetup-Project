@@ -1,0 +1,74 @@
+.how-meetup-box {
+    display: flex;
+    row-gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    gap: 24px
+}
+
+.how-meetup-title {
+    margin-top: 64px;
+}
+
+.how-meetup-leftside {
+    border-radius: var(--border-radius);
+    background-color: var(--color-light-blue-bg);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 180px;
+}
+
+.how-meetup-leftside img {
+    margin-top: 32px;
+    margin: 24px 32px;
+}
+
+.how-info-left h4 {
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
+
+.how-info-left p {
+    width: 85%;
+    padding-bottom: 16px;
+    line-height: 1.5;
+}
+
+.how-info-left a {
+    color: var(--color-btn-blue);
+    font-weight: 500;
+}
+
+.how-meetup-rightside {
+    border-radius: var(--border-radius);
+    background-color: var(--color-light-blue-bg);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 180px;
+}
+
+.how-meetup-rightside img {
+    margin-top: 32px;
+    margin: 24px 32px;
+}
+
+.how-info-right h4 {
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
+
+.how-info-right p {
+    width: 85%;
+    padding-bottom: 16px;
+    line-height: 1.5;
+}
+
+.how-info-right a {
+    color: var(--color-btn-blue);
+    font-weight: 500;
+}
