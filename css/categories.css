@@ -20,3 +20,8 @@
     width: 130px;
     padding: 22px;
 }
+
+.categories-box-item:hover {
+    cursor: pointer;
+    background-color: rgb(240, 249, 246);
+}
