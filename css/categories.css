@@ -6,6 +6,7 @@
     margin-top: 24px;
     column-gap: 16px;
     row-gap: 16px;
+    font-weight: 500;
 }
 
 .categories {
@@ -16,6 +17,6 @@
     background-color: var(--color-light-blue-bg);
     border-radius: var(--border-radius);
     height: 112px;
-    width: 120px;
+    width: 130px;
     padding: 22px;
 }
