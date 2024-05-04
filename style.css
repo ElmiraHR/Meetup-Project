@@ -8,6 +8,7 @@
 @import url("./css/popular.css");
 @import url("./css/how-meetup.css");
 @import url("./css/friendship.css");
+@import url("./css/footer.css");
 
 * {
 	margin: 0;
@@ -66,6 +67,14 @@ input * {
 	.container {
 		max-width: 90%;
 	}
+
+    .footer-container {
+		max-width: 90%;
+	}
+
+    .footer-ul-up {
+        padding-left: 0px;
+     }
 }
 
 @media (max-width: 1200px) {
@@ -117,6 +126,14 @@ input * {
 	.rightside-head {
 		margin-right: 15px;
 	}
+
+    .footer-container {
+		max-width: 90%;
+	}
+
+    .footer-ul-up {
+        padding-left: 0px;
+     }
 
 }
 
@@ -194,6 +211,14 @@ input * {
     .friendship-box-item{
         width: 50%;
     }
+
+    .footer-container {
+		max-width: 90%;
+	}
+
+    .footer-ul-up {
+        padding-left: 0px;
+     }
 }
 
 @media (max-width: 768px) {
@@ -254,6 +279,14 @@ input * {
         max-width: 450px;
     }
 
+    .footer-container {
+		max-width: 90%;
+	}
+
+    .footer-ul-up {
+        padding-left: 0px;
+     }
+
 }
 
 @media (max-width: 576px) {
@@ -311,6 +344,7 @@ input * {
 	}
 
     .events-box-item {
+        margin-bottom: 0px;
         flex-direction: row;
         border-top: 1px solid #D9D9D9;
     }
@@ -391,7 +425,7 @@ input * {
         flex-direction: column-reverse;
         text-align: center;
     }
-
+  
     .small-title {
         font-size: 20px;
         text-align: left;
@@ -411,6 +445,7 @@ input * {
         padding: 6px;
         margin: 0;
         align-items: center;
+        width: 100%;
     }
 
     .join-meetup-leftside button {
@@ -423,11 +458,35 @@ input * {
         margin-bottom: 10px;
     }
 
+    .categories {
+        margin-top: 15px;
+    }
 
     .friendship-box-item{
         font-size: 14px;
         width: 100%;
         max-width: 450px;
     }
+
+    .footer-container {
+		max-width: 90%;
+	}
+
+    .footer-ul li:not(:first-child) {
+        display: none;
+    }
+
+    .social-right {
+        display: none;
+    }
+
+    .footer-ul-up {
+        padding-left: 0px;
+     }
+
+     .footer {
+        margin-top: 25%;
+        font-size: 0.9em;
+     }
 
 }
