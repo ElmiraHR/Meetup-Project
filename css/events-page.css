@@ -1,0 +1,160 @@
+.container_events {
+	width: 1281px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+    width: 100%;
+}
+
+.all-events {
+    margin-top: 34px;
+    width: 60%;
+    font-size: 14px;
+}
+.all-events-img {
+    width: 160px;
+    height: 100px;
+    border-radius: var(--border-radius);
+}
+
+.all-events-img:hover {
+    opacity: 70%;
+}
+
+.all-events-link {
+    display: flex;
+    height: 180px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(197, 196, 196, 0.3);
+}
+
+.all-events-info {
+    position: relative;
+    margin-left: 12px;
+    line-height: 25px;
+}
+
+.all-events-header {
+    font-size: 16px;
+}
+
+.all-events-date {
+    color: #7C6F50;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.all-events-category {
+    color: var(--color-darkgrey);
+    font-weight: 600;
+}
+
+.all-events-atendees {
+    color: var(--color-darkgrey);
+    font-weight: 400;
+    padding-top: 28px;
+    line-height: 1.4;
+}
+
+.all-events-online-img {
+    position: absolute;
+    top: 7px;
+    left: -165px;
+}
+
+.map-img:hover {
+    cursor: pointer;
+}
+
+.map-img {
+    position: relative;
+}
+
+.maps h2 {
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+
+.maps p {
+    font-weight: 600;
+}
+
+.map-btn {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.close-map {
+    position: absolute;
+    top:5%;
+    left: 93%;
+    background-color: white ;
+}
+
+#any-type, #any-distance, #any-category {
+    background-color: #F6F7F8;
+    width: 120px;
+    height: 46px;
+    border-radius: 40px;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#any-type:hover {
+    background-color: #f3f3f5;
+}
+
+#any-distance:hover {
+    background-color: #f3f3f5;
+}
+
+#any-category:hover {
+    background-color: #f3f3f5;
+}
+
+#any-distance {
+    width: 137px;
+}
+
+#any-category {
+    width: 147px;
+}
+
+.events-small-title {
+    color: var(--color-btn-blue);
+    font-weight: bolder;
+    border-bottom: 3px solid var(--color-btn-blue);
+}
+
+.select-box {
+    display: flex;
+    margin-top: 12px;
+    gap: 17px;
+    max-width: 100vw;
+    overflow: scroll;
+    padding: 0.5px 0 10px 1px;
+}
+
+.select-box::-webkit-scrollbar {
+    width: 0.5px;
+    height: 12px;
+}
+.select-box::-webkit-scrollbar-thumb {
+    background-color: var(--color-darkgrey);
+    border-radius: 5px;
+ }
+
+.events-title {
+    margin-bottom: 12px;
+}
+
+
