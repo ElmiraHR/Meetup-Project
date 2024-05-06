@@ -6,7 +6,6 @@
 
 .main {
 	display: flex;
-	justify-content: space-between;
 	margin-top: 77px;
 	width: 100%;
 }
@@ -142,8 +141,13 @@
 	margin-top: 12px;
 	gap: 17px;
 	max-width: 100vw;
+    border: none;
 	overflow: scroll;
 	padding: 0.5px 0 10px 1px;
+}
+
+.select-box:active {
+    border: none; 
 }
 
 .select-box::-webkit-scrollbar {
@@ -159,3 +163,4 @@
 .events-title {
 	margin-bottom: 12px;
 }
+

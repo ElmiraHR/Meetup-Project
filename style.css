@@ -136,6 +136,10 @@ input * {
 		padding-left: 0px;
 	}
 
+	.maps {
+		display: none;
+	}
+
 }
 
 @media (max-width: 992px) {
@@ -229,9 +233,6 @@ input * {
 		padding-top: 15px;
 	}
 
-	.maps {
-		display: none;
-	}
 }
 
 @media (max-width: 768px) {
@@ -300,10 +301,6 @@ input * {
 
 	.footer-ul-up {
 		padding-left: 0px;
-	}
-
-	.maps {
-		display: none;
 	}
 
 	.grid-img {
