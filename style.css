@@ -245,6 +245,7 @@ input * {
 
 	.events-box-container {
 		grid-template-columns: repeat(2, 1fr);
+		justify-content: center;
 	}
 
 	.upcomming-box-container {
@@ -303,6 +304,11 @@ input * {
 
 	.maps {
 		display: none;
+	}
+
+	.grid-img {
+		max-width: 80%;
+		margin-right: 6px;
 	}
 
 	.all-events-link {
@@ -381,7 +387,7 @@ input * {
 	}
 
 	.grid-img {
-		width: 40%;
+		max-width: 40%;
 		max-height: 85px;
 		margin-right: 6px;
 	}
