@@ -127,7 +127,7 @@
 }
 
 #any-category {
-	width: 147px;
+	width: 190px;
 }
 
 .events-small-title {
@@ -146,8 +146,8 @@
 	padding: 0.5px 0 10px 1px;
 }
 
-.select-box:active {
-    border: none; 
+select:focus {
+    outline: none; 
 }
 
 .select-box::-webkit-scrollbar {
