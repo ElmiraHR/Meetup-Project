@@ -22,25 +22,43 @@ function createEvent(arr) {
     const eventsCategory = createDomElement({ tag: "p", className: "all-events-category", textValue: eventElement.category });
     eventsDescription.append(eventsDate, eventsHeader, eventsCategory);
     if (eventElement.type === "online") {
-        const onlineEventDiv = createDomElement({
-            tag: "div",
-            className: "all-events-online"
-        });
-    
-        const onlineEventText = createDomElement({
-            tag: "span",
-            textValue: "Online Event"
-        });
-    
-        const cameraImage = createDomElement({
-            tag: "img",
-            src: "./img/camera.svg",
-            alt: "online event"
-        });
-    
-        onlineEventDiv.append(cameraImage, onlineEventText);
-        eventsDescription.append(onlineEventDiv);
-    }
+      const onlineEventDiv = createDomElement({
+          tag: "div",
+          className: "all-events-online"
+      });
+  
+      const smallOnlineEventDiv = createDomElement({
+          tag: "div",
+          className: "all-events-online-small"
+      });
+  
+      const cameraImage = createDomElement({
+          tag: "img",
+          className: "all-events-online-img",
+          src: "./img/camera.svg",
+          alt: "online event"
+      });
+  
+      const smallCameraImage = createDomElement({
+          tag: "img",
+          className: "all-events-online-small-img",
+          src: "./img/camera.svg", 
+          alt: "online event (small)"
+      });
+  
+      const onlineEventText = createDomElement({
+          tag: "span",
+          textValue: "Online Event"
+      });
+  
+      onlineEventDiv.append(cameraImage, onlineEventText);
+      smallOnlineEventDiv.append(smallCameraImage, onlineEventText.cloneNode(true)); // Клонируем текст для второго div
+  
+
+      eventsDescription.append(onlineEventDiv, smallOnlineEventDiv);
+  }
+  
+  
     if (eventElement.attendees) {
         const eventsAtendees = createDomElement({
           tag: "p",

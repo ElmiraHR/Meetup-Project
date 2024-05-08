@@ -13,7 +13,6 @@
 
 .all-events {
 	margin-top: 34px;
-	/* width: 100%; */
 	font-size: 14px;
 }
 
@@ -29,7 +28,6 @@
 
 .all-events-link {
 	display: flex;
-	/* width: 100%; */
 	padding-top: 16px;
 	padding-bottom: 20px;
 	border-top: 1px solid rgba(197, 196, 196, 0.3);
@@ -220,14 +218,48 @@ select:focus {
 	font-weight: none;
 }
 
+.all-events-online {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	gap: 4px;
+	color: var(--color-darkgrey);
+	background-color: white;
+	border-radius: 4px;
+	width: 105px;
+	height: 20px;
+	position: absolute;
+	top: 4px;
+    left: -166px;
+	z-index: 2;
+}
 
-@media (max-width: 1400px) {}
+.all-events-online-small {
+	display: flex;
+	align-items: center;
+	color: var(--color-darkgrey);
+	gap: 4px;
+	margin-bottom: 26px;
+	display: none;
+}
+
+
+@media (max-width: 1400px) {
+
+	.all-events-online-small {
+		display: none;
+	}
+
+	.all-events-online {
+		display: flex;
+	}
+}
 
 @media (max-width: 1200px) {
 
 	.all-events {
 		width: 100%;
-
 	}
 }
 
@@ -256,6 +288,14 @@ select:focus {
 
 	.attendes {
 		display: block;
+	}
+
+	.all-events-online-small {
+		display: flex;
+	}
+
+	.all-events-online {
+		display: none;
 	}
 
 	.online {

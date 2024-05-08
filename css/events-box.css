@@ -72,9 +72,6 @@
 .online-camera-small {
 	width: 9px;
 	height: 7px;
-}
-
-.online-camera-small {
 	display: flex;
 	align-items: center;
 	display: none;
