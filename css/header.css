@@ -119,8 +119,37 @@ a:hover {
 	opacity: 80%;
 }
 
+.sticky-button {
+   display: none;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   padding: 5px;
+   position: sticky;
+   bottom: 0;
+   background-color: white;
+}
 
-@media (max-width: 1400px) {}
+.sticky {
+	background-color: var(--color-btn-blue);
+	color: var(--color-white);
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: var(--border-radius);
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+
+@media (max-width: 1400px) {
+
+	.sticky-button {
+		display: none;
+	}
+}
 
 @media (max-width: 1200px) {
 
@@ -131,6 +160,7 @@ a:hover {
 	.leftside-head {
 		width: 70%;
 	}
+
 }
 
 @media (max-width: 992px) {
@@ -189,6 +219,16 @@ a:hover {
 }
 
 @media (max-width: 576px) {
+
+    .sticky-button {
+		display: flex;
+		width: 100%;
+	}
+
+	/* .sticky-button button {
+		width: 50%;
+		margin: 0 60px;
+	} */
 
 	#input-left {
 		margin-left: 3px;
