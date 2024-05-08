@@ -32,3 +32,35 @@
     scale: 1.1;
     cursor: pointer;
 }
+
+
+
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+    
+	.popular-box {
+		flex-wrap: wrap;
+	}
+
+    .popular-box-item {
+        width: 153px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}

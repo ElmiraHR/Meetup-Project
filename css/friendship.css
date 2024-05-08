@@ -19,6 +19,7 @@
 }
 
 .friendship-item-info h4 {
+    line-height: 23px;
     padding-top: 24px;
     padding-bottom: 12px;
 }
@@ -28,7 +29,9 @@
 }
 
 .friendship-item-info p {
+    line-height: 23px;
     padding-bottom: 16px;
+    color: var(--color-darkgrey);
 }
 
 .friendship-item-info a {
@@ -50,4 +53,59 @@
 
 .friendship-box img:hover {
     opacity: 70%;
+}
+
+
+
+
+
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+    
+	.friendship-box {
+		flex-wrap: wrap;
+	}
+
+    .hidden-p {
+        display: none;
+    }
+.friendship-title h3 {
+    margin-bottom: 24px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    
+	.friendship-box-item {
+		width: 70%;
+		max-width: 450px;
+	}
+
+}
+
+@media (max-width: 576px) {
+
+    
+
+	.friendship-box-item {
+		font-size: 14px;
+		width: 100%;
+		max-width: 450px;
+	}
+
+    
+	
+
+
 }

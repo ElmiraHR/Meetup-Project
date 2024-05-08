@@ -44,3 +44,43 @@
 	color: #16a5b8;
 	cursor: pointer;
 }
+
+
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+	
+	.events-header-leftside {
+		width: 80%;
+		white-space: nowrap;
+		align-items: center;
+		gap: 4px;
+	}
+
+	
+	.events-header-leftside h3 {
+		font-size: 22px;
+	}
+
+	
+	.events-header {
+		margin-bottom: 17px;
+	}
+
+}

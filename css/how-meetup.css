@@ -7,6 +7,10 @@
     gap: 24px
 }
 
+.how-meetup-box img {
+    margin-right: 24px;
+}
+
 .how-meetup-title {
     margin-top: 64px;
 }
@@ -14,25 +18,28 @@
 .how-meetup-leftside {
     border-radius: var(--border-radius);
     background-color: var(--color-light-blue-bg);
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
-    height: 180px;
+    padding: 24px 32px;
 }
 
-.how-meetup-leftside img {
-    margin-top: 32px;
-    margin: 24px 32px;
+.how-meetup-leftside:hover {
+    cursor: pointer;
+    background-color: rgb(229, 248, 245);
+}
+
+.how-meetup-rightside:hover {
+    cursor: pointer;
+    background-color: rgb(229, 248, 245);
 }
 
 .how-info-left h4 {
     padding-bottom: 16px;
-    padding-top: 32px;
 }
 
 .how-info-left p {
-    width: 85%;
+    width: 100%;
     padding-bottom: 16px;
     line-height: 1.5;
 }
@@ -45,21 +52,10 @@
 .how-meetup-rightside {
     border-radius: var(--border-radius);
     background-color: var(--color-light-blue-bg);
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
-    height: 180px;
-}
-
-.how-meetup-rightside img {
-    margin-top: 32px;
-    margin: 24px 32px;
-}
-
-.how-info-right h4 {
-    padding-bottom: 16px;
-    padding-top: 32px;
+    padding: 24px 32px;
 }
 
 .how-info-right p {
@@ -71,4 +67,55 @@
 .how-info-right a {
     color: var(--color-btn-blue);
     font-weight: 500;
+}
+
+
+
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+    .how-meetup-box img{
+        justify-content: left;
+         width: 30px;
+         margin-right: 15px;
+     }
+
+}
+
+@media (max-width: 768px) {
+
+    .how-meetup-box img{
+       justify-content: left;
+        width: 25px;
+        margin-right: 15px;
+    }
+
+	.how-meetup-box {
+		flex-direction: column;
+	}
+
+    
+	.how-meetup-title {
+		padding-left: 5%;
+	}
+
+	.how-meetup-leftside,
+	.how-meetup-rightside {
+		width: 100%;
+		font-size: 14px;
+        height: 100%;
+	}
+
+}
+
+@media (max-width: 576px) {
+
 }

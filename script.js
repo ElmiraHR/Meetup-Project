@@ -22,22 +22,33 @@ function createEvent(arr) {
     const eventsCategory = createDomElement({ tag: "p", className: "all-events-category", textValue: eventElement.category });
     eventsDescription.append(eventsDate, eventsHeader, eventsCategory);
     if (eventElement.type === "online") {
-      const onlineEventImage = createDomElement({
-        tag: "img",
-        className: "all-events-online-img",
-        src: "./img/online.svg",
-        alt: "online event",
-      });
-      eventsDescription.append(onlineEventImage);
+        const onlineEventDiv = createDomElement({
+            tag: "div",
+            className: "all-events-online"
+        });
+    
+        const onlineEventText = createDomElement({
+            tag: "span",
+            textValue: "Online Event"
+        });
+    
+        const cameraImage = createDomElement({
+            tag: "img",
+            src: "./img/camera.svg",
+            alt: "online event"
+        });
+    
+        onlineEventDiv.append(cameraImage, onlineEventText);
+        eventsDescription.append(onlineEventDiv);
     }
     if (eventElement.attendees) {
-      const eventsAtendees = createDomElement({
-        tag: "p",
-        className: "all-events-atendees",
-        textValue: `${eventElement.attendees} attendees`,
-      });
-      eventsDescription.append(eventsAtendees);
-    }
+        const eventsAtendees = createDomElement({
+          tag: "p",
+          className: "all-events-atendees",
+          textValue: `${eventElement.attendees} attendees`,
+        });
+        eventsDescription.append(eventsAtendees);
+      }
   });
 }
 function clearEvents() {

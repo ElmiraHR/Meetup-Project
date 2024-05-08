@@ -67,9 +67,8 @@
 }
 
 .upcomming-info li {
-	padding-top: 8px;
+	padding: 0;
 	list-style-type: none;
-	margin-left: -35px;
 	display: flex;
 	align-items: center;
 	row-gap: 6px;
@@ -85,8 +84,48 @@ li h4:hover {
 }
 
 .upcomming-box-item {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 50px;
-    position: relative;
+	position: relative;
+}
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+
+	.upcomming-box-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+
+	.upcomming-box-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 576px) {
+
+	.upcomming-box-item {
+		flex-direction: row;
+		border-top: 1px solid #D9D9D9;
+	}
+
+	.upcomming-box-container {
+		grid-template-columns: 1fr;
+	}
+
+	.upcomming-header {
+		margin-bottom: 17px;
+		margin-top: 64px;
+	}
+
+	.upcomming-header h3 {
+		font-size: 20px;
+	}
 }
