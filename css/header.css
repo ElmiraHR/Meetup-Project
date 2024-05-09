@@ -177,6 +177,11 @@ a:hover {
 		column-gap: 10px;
 		font-size: 14px;
 	}
+	
+    .sticky-button {
+		display: flex;
+		width: 100%;
+	}
 }
 
 @media (max-width: 768px) {
@@ -224,11 +229,6 @@ a:hover {
 		display: flex;
 		width: 100%;
 	}
-
-	/* .sticky-button button {
-		width: 50%;
-		margin: 0 60px;
-	} */
 
 	#input-left {
 		margin-left: 3px;
